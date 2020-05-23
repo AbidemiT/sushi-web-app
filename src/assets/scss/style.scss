@@ -1,0 +1,62 @@
+@import "./variables";
+@import "./header";
+@import "./whatwecook";
+@import "./foodgallery";
+@import "./booking";
+@import "./mobile-nav";
+@import "./footer";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+@font-face {
+    font-family: "GoodDog";
+    src: url("../fonts/GOODDC.ttf") format("truetype");
+    src: url("../fonts/GOODDC.woff")format("woff");
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: $background-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Enter and leave animations can use different */
+/* durations and timing functions.              */
+.slide-fade-enter-active {
+    transition: all .2s ease;
+}
+
+.slide-fade-leave-active {
+    transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to
+
+/* .slide-fade-leave-active below version 2.1.8 */
+    {
+    transform: translateX(10px);
+    opacity: 0;
+}
+
+// .noScroll {
+//     overflow-y: hidden;
+//     height: 100%;
+// }

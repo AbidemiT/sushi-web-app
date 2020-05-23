@@ -1,0 +1,3 @@
+Primary Color - #5d6942
+Background-Color : #212121
+icon-background-color: #e7e7e7

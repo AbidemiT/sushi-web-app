@@ -1,0 +1,554 @@
+.booking-container {
+    background: url("../img/bookhere-bg.png") no-repeat center center/cover;
+    padding: 40px 0;
+
+    .book-here {
+        background: $background-color;
+        margin-top: 30px;
+        margin-bottom: 80px;
+        padding: 40px 10px;
+        color: $white-color;
+
+        .heading {
+            text-align: center;
+            margin-bottom: 20px;
+
+            h2 {
+                font-family: "GoodDog";
+                letter-spacing: .1rem;
+                font-weight: 200;
+                font-size: 2rem;
+            }
+        }
+
+        .form-container {
+
+            .form {
+
+                .row {
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                    grid-row-gap: 10px;
+
+                    .col {
+                        width: 80%;
+                        margin: 0 auto;
+
+                        .select-container {
+                            width: 100%;
+
+                            label {
+                                display: block;
+                                font-size: .8rem;
+                                margin-bottom: 5px;
+                            }
+
+                            select {
+                                width: 100%;
+                                margin: 0 auto;
+                                background: transparent;
+                                border: 1px solid $white-color;
+                                color: $white-color;
+                                outline: none;
+                                height: 40px;
+                                border-radius: 5px;
+                                padding: 0 10px;
+                                margin-bottom: 5px;
+
+                                &:hover,
+                                &:focus {
+                                    border: 2px solid $primary-color;
+                                    transition: all .2s;
+                                }
+                            }
+                        }
+
+                        .input-container {
+                            width: 100%;
+
+                            label {
+                                display: block;
+                                font-size: .8rem;
+                                margin-bottom: 5px;
+                            }
+
+                            input {
+                                width: 100%;
+                                margin: 0 auto;
+                                background: transparent;
+                                border: 1px solid $white-color;
+                                color: $white-color;
+                                outline: none;
+                                height: 40px;
+                                border-radius: 5px;
+                                padding-left: 10px;
+                                margin-bottom: 5px;
+
+                                &:hover,
+                                &:focus {
+                                    border: 2px solid $primary-color;
+                                    transition: all .2s;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .btn-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 20px 0;
+
+                    .btn {
+                        background: transparent;
+                        border: 1px solid $white-color;
+                        border-radius: 5px;
+                        color: $white-color;
+                        padding: 10px 50px;
+                        cursor: pointer;
+
+                        &:hover {
+                            border: 1px solid $primary-color;
+                            background: $transparent-primary-color;
+                            transition: all .2s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.discover-menu {
+    margin: 40px 0;
+
+    .heading {
+        text-align: center;
+        margin-bottom: 40px;
+
+        h2 {
+            color: $white-color;
+            font-size: 1.8rem;
+            font-weight: 300;
+        }
+
+        h3 {
+            font-family: "GoodDog";
+            color: $primary-color;
+            font-size: 2.5rem;
+            letter-spacing: .2rem;
+        }
+
+    }
+
+    .cards-container {
+        width: 80%;
+        margin: 0 auto;
+
+        .cards {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-row-gap: 40px;
+
+            .card {
+                // width: 100%;
+
+                &:hover {
+                    transform: scale(1.1);
+                    transition: all .2s;
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    margin-bottom: -3px;
+                    object-fit: cover;
+                }
+
+                .content {
+                    padding: 20px;
+                    background: $white-color;
+
+                    .name-date {
+                        h4 {
+                            font-weight: bolder;
+                        }
+                    }
+
+                    .p-content {
+                        margin: 20px 0;
+                    }
+
+                    .readmore {
+                        a {
+                            color: $black-color;
+                            border-bottom: 5px solid $primary-color;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include md {
+    .booking-container {
+        background: url("../img/bookhere-bg.png") no-repeat center center/cover;
+        padding: 40px 0;
+
+        .book-here {
+            background: $background-color;
+            margin-top: 30px;
+            margin-bottom: 80px;
+            padding: 40px 10px;
+            color: $white-color;
+
+            .heading {
+                text-align: center;
+                margin-bottom: 20px;
+
+                h2 {
+                    font-family: "GoodDog";
+                    letter-spacing: .1rem;
+                    font-weight: 200;
+                    font-size: 2rem;
+                }
+            }
+
+            .form-container {
+
+                .form {
+
+                    .row {
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                        grid-row-gap: 10px;
+
+                        .col {
+                            width: 80%;
+                            margin: 0 auto;
+
+                            .select-container {
+                                width: 100%;
+
+                                label {
+                                    display: block;
+                                    font-size: .8rem;
+                                    margin-bottom: 5px;
+                                }
+
+                                select {
+                                    width: 100%;
+                                    margin: 0 auto;
+                                    background: transparent;
+                                    border: 1px solid $white-color;
+                                    color: $white-color;
+                                    outline: none;
+                                    height: 40px;
+                                    border-radius: 5px;
+                                    padding: 0 10px;
+                                    margin-bottom: 5px;
+
+                                    &:hover,
+                                    &:focus {
+                                        border: 2px solid $primary-color;
+                                        transition: all .2s;
+                                    }
+                                }
+                            }
+
+                            .input-container {
+                                width: 100%;
+
+                                label {
+                                    display: block;
+                                    font-size: .8rem;
+                                    margin-bottom: 5px;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    margin: 0 auto;
+                                    background: transparent;
+                                    border: 1px solid $white-color;
+                                    color: $white-color;
+                                    outline: none;
+                                    height: 40px;
+                                    border-radius: 5px;
+                                    padding-left: 10px;
+                                    margin-bottom: 5px;
+
+                                    &:hover,
+                                    &:focus {
+                                        border: 2px solid $primary-color;
+                                        transition: all .2s;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .btn-container {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: 20px 0;
+
+                        .btn {
+                            background: transparent;
+                            border-radius: 5px;
+                            color: $white-color;
+                            padding: 10px 50px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .discover-menu {
+        margin: 40px 0;
+
+        .heading {
+            text-align: center;
+            margin-bottom: 40px;
+
+            h2 {
+                color: $white-color;
+                font-size: 1.8rem;
+                font-weight: 300;
+            }
+
+            h3 {
+                font-family: "GoodDog";
+                color: $primary-color;
+                font-size: 2.5rem;
+                letter-spacing: .2rem;
+            }
+
+        }
+
+        .cards-container {
+            width: 80%;
+            margin: 0 auto;
+
+            .cards {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                grid-gap: 40px;
+
+                .card {
+                    // width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        margin-bottom: -3px;
+                        object-fit: cover;
+                    }
+
+                    .content {
+                        padding: 20px;
+                        background: $white-color;
+
+                        .name-date {
+                            h4 {
+                                font-weight: bolder;
+                            }
+                        }
+
+                        .p-content {
+                            margin: 20px 0;
+                        }
+
+                        .readmore {
+                            a {
+                                color: $black-color;
+                                border-bottom: 5px solid $primary-color;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include lg {
+    .booking-container {
+        background: url("../img/bookhere-bg.png") no-repeat center center/cover;
+        padding: 40px 0;
+
+        .book-here {
+            background: $background-color;
+            margin-top: 30px;
+            margin-bottom: 80px;
+            padding: 40px 10px;
+            color: $white-color;
+
+            .heading {
+                text-align: center;
+                margin-bottom: 30px;
+
+                h2 {
+                    font-family: "GoodDog";
+                    letter-spacing: .2rem;
+                    font-weight: 200;
+                    font-size: 2.5rem;
+                }
+            }
+
+            .form-container {
+
+                .form {
+
+                    .row {
+
+                        display: grid;
+                        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                        grid-row-gap: 10px;
+
+                        .col {
+                            width: 80%;
+                            margin: 0 auto;
+
+                            .select-container {
+                                width: 100%;
+                                margin-bottom: 20px;
+
+                                label {
+                                    display: block;
+                                    font-size: .8rem;
+                                    margin-bottom: 5px;
+                                }
+
+                                select {
+                                    width: 100%;
+                                    margin: 0 auto;
+                                    background: transparent;
+                                    border: 1px solid $white-color;
+                                    color: $white-color;
+                                    outline: none;
+                                    height: 40px;
+                                    border-radius: 5px;
+                                    padding: 0 10px;
+                                    margin-bottom: 5px;
+
+                                    &:hover,
+                                    &:focus {
+                                        border: 2px solid $primary-color;
+                                        transition: all .2s;
+                                    }
+                                }
+                            }
+
+                            .input-container {
+                                width: 100%;
+                                margin-bottom: 20px;
+
+                                label {
+                                    display: block;
+                                    font-size: .8rem;
+                                    margin-bottom: 5px;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    margin: 0 auto;
+                                    background: transparent;
+                                    border: 1px solid $white-color;
+                                    color: $white-color;
+                                    outline: none;
+                                    height: 40px;
+                                    border-radius: 5px;
+                                    padding-left: 10px;
+                                    margin-bottom: 5px;
+
+                                    &:hover,
+                                    &:focus {
+                                        border: 2px solid $primary-color;
+                                        transition: all .2s;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .discover-menu {
+        margin: 40px 0;
+
+        .heading {
+            text-align: center;
+            margin-bottom: 40px;
+
+            h2 {
+                color: $white-color;
+                font-size: 1.8rem;
+                font-weight: 300;
+            }
+
+            h3 {
+                font-family: "GoodDog";
+                color: $primary-color;
+                font-size: 2.5rem;
+                letter-spacing: .2rem;
+            }
+
+        }
+
+        .cards-container {
+            width: 90%;
+            margin: 0 auto;
+
+            .cards {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                grid-column-gap: 40px;
+
+                .card {
+                    // width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        margin-bottom: -3px;
+                        object-fit: cover;
+                    }
+
+                    .content {
+                        padding: 20px;
+                        background: $white-color;
+
+                        .name-date {
+                            h4 {
+                                font-weight: bolder;
+                            }
+                        }
+
+                        .p-content {
+                            margin: 20px 0;
+                        }
+
+                        .readmore {
+                            a {
+                                color: $black-color;
+                                border-bottom: 5px solid $primary-color;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
