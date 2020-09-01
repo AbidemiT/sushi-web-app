@@ -1,5 +1,5 @@
 .booking-container {
-    background: url("../img/bookhere-bg.png") no-repeat center center/cover;
+    background: url("https://res.cloudinary.com/do5foxghh/image/upload/f_auto,q_auto/v1598966595/bookhere-bg.png") no-repeat center center/cover;
     padding: 40px 0;
 
     .book-here {
@@ -196,7 +196,7 @@
 
 @include md {
     .booking-container {
-        background: url("../img/bookhere-bg.png") no-repeat center center/cover;
+        background: url("https://res.cloudinary.com/do5foxghh/image/upload/f_auto,q_auto/v1598966595/bookhere-bg.png") no-repeat center center/cover;
         padding: 40px 0;
 
         .book-here {
@@ -381,7 +381,7 @@
 
 @include lg {
     .booking-container {
-        background: url("../img/bookhere-bg.png") no-repeat center center/cover;
+        background: url("https://res.cloudinary.com/do5foxghh/image/upload/f_auto,q_auto/v1598966595/bookhere-bg.png") no-repeat center center/cover;
         padding: 40px 0;
 
         .book-here {

@@ -6,7 +6,7 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde accusantium cupiditate repudiandae? Consectetur id aliquam sapiente beatae, possimus a minima.</p>
         </div>
         <div class="img-container" data-aos="fade-left">
-            <img src="../assets/img/whatwedo.png" alt="Sushi Food Image">
+            <img src="https://res.cloudinary.com/do5foxghh/image/upload/f_auto,q_auto/v1598966159/whatwedo.png" alt="Sushi Food Image">
         </div>
     </div>
     <div class="new">
